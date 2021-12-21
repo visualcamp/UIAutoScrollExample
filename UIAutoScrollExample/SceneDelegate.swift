@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  UIAutoScrollExample
+//  AutoScrollTest
 //
-//  Created by vc2017mac on 2021/12/21.
+//  Created by 이다빈 on 2021/12/01.
 //
 
 import UIKit

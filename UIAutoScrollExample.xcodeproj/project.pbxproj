@@ -10,20 +10,42 @@
 		2D411C802771B0EC007C3723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D411C7F2771B0EC007C3723 /* AppDelegate.swift */; };
 		2D411C822771B0EC007C3723 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D411C812771B0EC007C3723 /* SceneDelegate.swift */; };
 		2D411C842771B0EC007C3723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D411C832771B0EC007C3723 /* ViewController.swift */; };
-		2D411C872771B0EC007C3723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D411C852771B0EC007C3723 /* Main.storyboard */; };
 		2D411C892771B0EE007C3723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D411C882771B0EE007C3723 /* Assets.xcassets */; };
 		2D411C8C2771B0EE007C3723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D411C8A2771B0EE007C3723 /* LaunchScreen.storyboard */; };
+		2D411C942771B162007C3723 /* theoldmanandsea.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D411C932771B162007C3723 /* theoldmanandsea.txt */; };
+		2D411C972771B22A007C3723 /* UIAutoScroll in Frameworks */ = {isa = PBXBuildFile; productRef = 2D411C962771B22A007C3723 /* UIAutoScroll */; };
+		2D411C992771B260007C3723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D411C982771B260007C3723 /* Main.storyboard */; };
+		2D411C9C2771B3D8007C3723 /* SeeSo.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D411C9A2771B3CC007C3723 /* SeeSo.xcframework */; };
+		2D411C9D2771B3D8007C3723 /* SeeSo.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D411C9A2771B3CC007C3723 /* SeeSo.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D411CA02771B451007C3723 /* String+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D411C9F2771B450007C3723 /* String+Size.swift */; };
+		2D411CA32771C5A9007C3723 /* MKRingProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = 2D411CA22771C5A9007C3723 /* MKRingProgressView */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D411C9E2771B3D8007C3723 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D411C9D2771B3D8007C3723 /* SeeSo.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2D411C7C2771B0EC007C3723 /* UIAutoScrollExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAutoScrollExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D411C7F2771B0EC007C3723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D411C812771B0EC007C3723 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2D411C832771B0EC007C3723 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2D411C862771B0EC007C3723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D411C882771B0EE007C3723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D411C8B2771B0EE007C3723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2D411C8D2771B0EE007C3723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D411C932771B162007C3723 /* theoldmanandsea.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = theoldmanandsea.txt; sourceTree = "<group>"; };
+		2D411C982771B260007C3723 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2D411C9A2771B3CC007C3723 /* SeeSo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SeeSo.xcframework; sourceTree = "<group>"; };
+		2D411C9F2771B450007C3723 /* String+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Size.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D411C972771B22A007C3723 /* UIAutoScroll in Frameworks */,
+				2D411CA32771C5A9007C3723 /* MKRingProgressView in Frameworks */,
+				2D411C9C2771B3D8007C3723 /* SeeSo.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +81,15 @@
 		2D411C7E2771B0EC007C3723 /* UIAutoScrollExample */ = {
 			isa = PBXGroup;
 			children = (
+				2D411C9A2771B3CC007C3723 /* SeeSo.xcframework */,
 				2D411C7F2771B0EC007C3723 /* AppDelegate.swift */,
 				2D411C812771B0EC007C3723 /* SceneDelegate.swift */,
 				2D411C832771B0EC007C3723 /* ViewController.swift */,
-				2D411C852771B0EC007C3723 /* Main.storyboard */,
+				2D411C9F2771B450007C3723 /* String+Size.swift */,
 				2D411C882771B0EE007C3723 /* Assets.xcassets */,
+				2D411C982771B260007C3723 /* Main.storyboard */,
 				2D411C8A2771B0EE007C3723 /* LaunchScreen.storyboard */,
-				2D411C8D2771B0EE007C3723 /* Info.plist */,
+				2D411C932771B162007C3723 /* theoldmanandsea.txt */,
 			);
 			path = UIAutoScrollExample;
 			sourceTree = "<group>";
@@ -77,12 +104,17 @@
 				2D411C782771B0EC007C3723 /* Sources */,
 				2D411C792771B0EC007C3723 /* Frameworks */,
 				2D411C7A2771B0EC007C3723 /* Resources */,
+				2D411C9E2771B3D8007C3723 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = UIAutoScrollExample;
+			packageProductDependencies = (
+				2D411C962771B22A007C3723 /* UIAutoScroll */,
+				2D411CA22771C5A9007C3723 /* MKRingProgressView */,
+			);
 			productName = UIAutoScrollExample;
 			productReference = 2D411C7C2771B0EC007C3723 /* UIAutoScrollExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +143,10 @@
 				Base,
 			);
 			mainGroup = 2D411C732771B0EC007C3723;
+			packageReferences = (
+				2D411C952771B22A007C3723 /* XCRemoteSwiftPackageReference "UIAutoScroll" */,
+				2D411CA12771C5A9007C3723 /* XCRemoteSwiftPackageReference "MKRingProgressView" */,
+			);
 			productRefGroup = 2D411C7D2771B0EC007C3723 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D411C8C2771B0EE007C3723 /* LaunchScreen.storyboard in Resources */,
+				2D411C942771B162007C3723 /* theoldmanandsea.txt in Resources */,
 				2D411C892771B0EE007C3723 /* Assets.xcassets in Resources */,
-				2D411C872771B0EC007C3723 /* Main.storyboard in Resources */,
+				2D411C992771B260007C3723 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D411C842771B0EC007C3723 /* ViewController.swift in Sources */,
+				2D411CA02771B451007C3723 /* String+Size.swift in Sources */,
 				2D411C802771B0EC007C3723 /* AppDelegate.swift in Sources */,
 				2D411C822771B0EC007C3723 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +185,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2D411C852771B0EC007C3723 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D411C862771B0EC007C3723 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2D411C8A2771B0EE007C3723 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,6 +322,7 @@
 				DEVELOPMENT_TEAM = BMGDL6J6CA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIAutoScrollExample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "EyeTracking needs camera permission.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +351,7 @@
 				DEVELOPMENT_TEAM = BMGDL6J6CA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIAutoScrollExample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "EyeTracking needs camera permission.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -360,6 +392,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D411C952771B22A007C3723 /* XCRemoteSwiftPackageReference "UIAutoScroll" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/visualcamp/UIAutoScroll";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		2D411CA12771C5A9007C3723 /* XCRemoteSwiftPackageReference "MKRingProgressView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxkonovalov/MKRingProgressView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D411C962771B22A007C3723 /* UIAutoScroll */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D411C952771B22A007C3723 /* XCRemoteSwiftPackageReference "UIAutoScroll" */;
+			productName = UIAutoScroll;
+		};
+		2D411CA22771C5A9007C3723 /* MKRingProgressView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D411CA12771C5A9007C3723 /* XCRemoteSwiftPackageReference "MKRingProgressView" */;
+			productName = MKRingProgressView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D411C742771B0EC007C3723 /* Project object */;
 }
